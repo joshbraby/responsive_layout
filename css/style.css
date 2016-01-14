@@ -1,14 +1,3 @@
-/*
-
-11) Add additional relevant content such as extra images, information or even extra pages.
-
-12) Provide semantic classes where appropriate, like for a navigation bar. Try to think of class names that describe what a certain element represents, and that are not likely to change. For example, the “main-nav” will always remain the main navigation, no matter how much the look of the page changes.
-
-13) Add additional color or layout styling to the CSS to enhance the portfolio. Think about background and text colors. Just make sure you leave the basic layout the same as the mockup.
-
-
-*/
-
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -141,9 +130,9 @@ footer a {
 	}
 
 	.profile-pic-container {
-		width: 30%;
+		width: 20%;
 		float: right;
-		margin-right: 5%
+		margin-right: 10%
 	}
 
 	.intro-container p {
@@ -188,19 +177,26 @@ footer a {
 	}
 
 	.footer-nav ul {
-		width: 30%;
+		width: 25%;
 		float: right;
-		margin: 0;
-		padding: 0;
+		margin: 1rem 0 0 0;
 	}
 
 	.footer-nav li {
 		float: left;
 		width: 33%;
+		margin: 0;
+		padding: 0;
 	}
 
 	.footer-nav ul li a {
 		font-size: 0.5rem;
+		width: 100%;
+		margin: 0;
+	}
+
+	footer h3 {
+		padding: 0;
 	}
 
 }
@@ -209,11 +205,12 @@ footer a {
 
 
 	.container {
-		max-width: 1024px;
+		max-width: 1200px;
 	}
 	h1 {
 		width: 30%;
 		float: left;
+		padding-bottom: 0;
 	}
 
 	nav {
